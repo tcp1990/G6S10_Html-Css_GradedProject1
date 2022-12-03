@@ -44,7 +44,11 @@ input {
     border-radius: 8px;
 }
 
-button {
+.buttonSection {    
+    text-align: center;
+}
+
+.buttonSection button {
     width: 120px;
     height: 40px;
     padding: 5px;
