@@ -112,6 +112,7 @@ header {
 }
 
 .products {
+    background-color: #dfe4e5;
     position: relative;
     border-radius: 10px;
     margin: 5px;
@@ -122,12 +123,18 @@ header {
 }
 
 .products .productTitle {
+    margin: 4px;
+    margin-bottom: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
     font-weight: bold;
     height: 10%;
 }
 
 .products .productImage{
-    width: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 97%;
     height: 60%;
 }
 
@@ -138,8 +145,15 @@ header {
 
 .products .productPrice,
 .products .productOfferPrice {
+    padding-left: 4px;
+    padding-right: 4px;
     height: 10%;
     color: #318CE7;
+}
+
+.products .productAddToCart {
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .products .productAddToCart button {
