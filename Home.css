@@ -60,6 +60,44 @@ header {
     text-decoration: none;
 }
 
+.animatedAds {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    animation-name: adsAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes adsAnimation {
+    0% {
+        background-image: url(Images/Animation/ani1.jpg)
+    }
+
+    20% {
+        background-image: url(Images/Animation/ani2.png)
+    }
+
+    40% {
+        background-image: url(Images/Animation/ani3.jpg)
+    }
+
+    60% {
+        background-image: url(Images/Animation/ani4.jpg)
+    }
+
+    80% {
+        background-image: url(Images/Animation/ani5.jpg)
+    }
+    100% {
+        background-image: url(Images/Animation/ani1.jpg)
+    }
+}
+
 footer {
     background-color: black;
     color: white;
