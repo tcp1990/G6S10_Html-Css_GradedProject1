@@ -1,0 +1,65 @@
+h2 {
+    text-align: center;
+}
+
+.baseContainer {
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    font-size: 20px;
+    top: 5%;
+    left: 30%;
+    line-height: 50px;
+    border-radius: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.float-container {
+    background-color: #dfe4e5;
+    position: relative;
+    border-radius: 10px;
+    margin: 5px;
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    overflow-y: scroll;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.float-child {
+    width: 50%;
+    height:100%;
+    float: left;
+}
+
+input {
+    height: 30px;
+    width: 45%;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    vertical-align: middle;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 6px;
+    background-color: rgb(175, 102, 243);
+    margin: 20px;
+    color: white;
+    border: none;
+}
+
+#myVideo {
+    position: fixed;
+    width: auto;
+    height: auto;
+}
+
+#lname {
+    margin-left: 30%;
+}
