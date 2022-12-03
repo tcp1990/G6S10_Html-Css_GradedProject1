@@ -11,7 +11,32 @@
     vertical-align: middle;
 }
 
-.float-container {
+.flex {
+    display: flex;
+}
+
+.flex.column {
+    flex-direction: column
+}
+
+.under {
+    background: #0099cc;
+    height: 75px;
+}
+
+.content {
+    flex: 1;
+}
+
+.left_col {
+    width: 50%;
+}
+
+.right_col {
+    width: 50%;
+}
+
+.flex.column.float-container {
     position: relative;
     padding-left: 20px;
     margin: 5px;
@@ -22,13 +47,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.float-child {
-    width: 50%;
-    height:100%;
-    float: left;
-}
-
-.float-container .float-child img {
+.flex.column.float-container .right_col img {
     width: 100%;
     height: 100%;
 }
@@ -40,7 +59,7 @@ input {
     border-radius: 8px;
 }
 
-.buttonSection {    
+.buttonSection {
     text-align: center;
 }
 
@@ -56,14 +75,4 @@ input {
     margin: 20px;
     color: white;
     border: none;
-}
-
-#myVideo {
-    position: fixed;
-    width: auto;
-    height: auto;
-}
-
-#lname {
-    margin-left: 30%;
 }
