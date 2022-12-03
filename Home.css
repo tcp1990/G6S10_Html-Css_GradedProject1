@@ -116,9 +116,9 @@ header {
     border-radius: 10px;
     margin: 5px;
     width: 350px;
-    height: 200px;
-    border: 2px solid green;
+    height: 300px;
     display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .products .productTitle {
@@ -126,10 +126,14 @@ header {
     height: 10%;
 }
 
-.products .productImage img {
-    border-radius: 10px;
+.products .productImage{
     width: 100%;
-    height: 200px;
+    height: 60%;
+}
+
+.products .productImage img{
+    width: 100%;
+    height: 100%;
 }
 
 .products .productPrice,
