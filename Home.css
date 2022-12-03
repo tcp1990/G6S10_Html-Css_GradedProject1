@@ -139,6 +139,7 @@ header {
 }
 
 .products .productImage img{
+    border-radius: 5px;
     width: 100%;
     height: 100%;
 }
@@ -157,6 +158,8 @@ header {
 }
 
 .products .productAddToCart button {
+    color: orange;
+    background-color: lightgrey;
     width: 100%;
     height: 10%;
     font-weight: bold;
