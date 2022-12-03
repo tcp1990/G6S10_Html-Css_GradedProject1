@@ -103,6 +103,11 @@ header {
     }
 }
 
+#covidCareSection,
+#diabetesCareSection {
+    margin: 10px;
+}
+
 .products {
     background-color: #dfe4e5;
     position: relative;
