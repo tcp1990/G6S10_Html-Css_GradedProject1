@@ -103,14 +103,6 @@ header {
     }
 }
 
-#covidCareSection,
-#diabetesCareSection {
-    margin: 10px;
-    overflow-x: auto;
-    white-space: nowrap;
-    overflow-x: auto;
-}
-
 .products {
     background-color: #dfe4e5;
     position: relative;
@@ -122,6 +114,11 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.products:hover {
+    z-index: 10;
+    transform: scale(1.05);
+}
+
 .products .productTitle {
     margin: 4px;
     margin-bottom: 0px;
@@ -131,14 +128,14 @@ header {
     height: 10%;
 }
 
-.products .productImage{
+.products .productImage {
     padding-left: 4px;
     padding-right: 4px;
     width: 97%;
     height: 60%;
 }
 
-.products .productImage img{
+.products .productImage img {
     border-radius: 5px;
     width: 100%;
     height: 100%;
@@ -165,6 +162,11 @@ header {
     font-weight: bold;
     border: 1px solid steelblue;
     border-radius: 5px;
+}
+
+.products .productAddToCart button:active {
+    background-color: rgb(250, 234, 230);
+    border: 1px solid rgb(0, 255, 76);
 }
 
 footer {
