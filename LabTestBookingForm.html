@@ -15,22 +15,45 @@
             <div class="float-container">
 
                 <div class="float-child">
-                    <label for="F_name">First Name:</label>
-                    <label for="L_name" id="lname">Last Name: </label><br>
-                    <input type="text" name="F_name" placeholder="Enter First Name" required>
-                    <input type="text" name="L_name" placeholder="Enter Last Name" required><br>
 
-                    <label for="u_email">Email Id: </label><br>
-                    <input type="email" name="u_email" placeholder="Enter Email Id" required><br>
+                    <h3>1. Your Contact Details</h3>
+                    <input type="text" name="Full_name" placeholder="Full Name" required>
+                    <input type="text" name="Patient_Id" placeholder="Patient Id if exists" required><br>
+                    <input type="number" min="6000000000" max="9999999999" name="Contact_Number"
+                        placeholder="Contact Number" required>
+                    <input type="email" name="Email_Id" placeholder="Email Id" required><br />
 
-                    <label for="u_name">Username: </label><br>
-                    <input type="text" name="u_name" placeholder="Enter Username of your choice" required><br>
+                    <h3>2. Address</h3>
+                    <input type="text" name="House_Number" placeholder="H-No" required>
+                    <input type="text" name="Street_Name" placeholder="Street" required><br>
+                    <input type="text" name="Area_Name" placeholder="Area" required><br>
+                    <Label style="font-weight:bold">District</Label><br>
+                    <select name="districts" id="districts">
+                        <option value="Choose">Choose</option>
+                        <option value="Krishnagiri">Krishnagiri</option>
+                        <option value="Dharmapuri">Dharmapuri</option>
+                        <option value="Salem">Salem</option>
+                    </select>
 
-                    <label for="u_pswd">Enter Password: </label><br>
-                    <input type="password" name="u_pswd" placeholder="Enter Password" minlength="8" required><br>
+                    <h3>3. Choose the Test Type:</h3>
+                    <Label Style="color:red">* Check atleast one box without fail</Label><br>
+                    <input type="radio" id="cbc" name="test_type" value="CBC">
+                    <label for="cbc">CBC</label><br>
+                    <input type="radio" id="completeUrine" name="test_type" value="Complete Urine">
+                    <label for="completeUrine">Complete Urine</label><br>
+                    <input type="radio" id="lipidProfile" name="test_type" value="Lipid Profile">
+                    <label for="lipidProfile">Lipid Profile</label>
+                    <input type="radio" id="tsh" name="test_type" value="Thyroid Stimulating Hormone(TSH)">
+                    <label for="tsh">Thyroid Stimulating Hormone(TSH)</label><br>
+                    <input type="radio" id="glucoseTest" name="test_type" value="Glucose Test">
+                    <label for="glucoseTest">Glucose Test</label>
 
-                    <label for="u_repswd">Re-enter Password: </label><br>
-                    <input type="password" name="repswd" placeholder="Re-enter Password" minlength="8" required><br>
+                    <h3>4. Do you want a hard copy of the report also:</h3>
+                    <input type="radio" id="yesId" name="report_type" value="Yes">
+                    <label for="yesId">Yes</label><br>
+                    <input type="radio" id="noId" name="report_type" value="No" checked>
+                    <label for="noId">No</label>
+
                 </div>
 
                 <div class="float-child">
