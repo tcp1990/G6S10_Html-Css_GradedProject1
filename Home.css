@@ -97,9 +97,53 @@ header {
     80% {
         background-image: url(Images/Animation/ani5.jpg)
     }
+
     100% {
         background-image: url(Images/Animation/ani1.jpg)
     }
+}
+
+#covidCareSection,
+#diabetesCareSection {
+    margin: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.products {
+    position: relative;
+    border-radius: 10px;
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    border: 2px solid green;
+    display: inline-block;
+}
+
+.products .productTitle {
+    font-weight: bold;
+    height: 10%;
+}
+
+.products .productImage img {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+.products .productPrice,
+.products .productOfferPrice {
+    height: 10%;
+    color: #318CE7;
+}
+
+.products .productAddToCart button {
+    width: 100%;
+    height: 10%;
+    font-weight: bold;
+    border: 1px solid steelblue;
+    border-radius: 5px;
 }
 
 footer {
