@@ -64,10 +64,14 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
-    height: 600px;
+    width: 98.4%;
+    height: 500px;
+    margin: 2px;
+    margin-left: 0px;
+    padding: 10px;
+    border: 2px solid steelblue;
     background-repeat: no-repeat;
-    background-size: 100% 600px;
+    background-size: 100% 100%;
     animation-name: adsAnimation;
     animation-duration: 10s;
     animation-iteration-count: infinite;
