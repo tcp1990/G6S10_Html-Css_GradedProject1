@@ -124,6 +124,11 @@ header {
     transform: scale(1.05);
 }
 
+.products:active {
+    background-color: rgb(250, 234, 230);
+    border: 1px solid rgb(0, 255, 76);
+}
+
 .products .productTitle {
     margin: 4px;
     margin-bottom: 0px;
@@ -167,11 +172,6 @@ header {
     font-weight: bold;
     border: 1px solid steelblue;
     border-radius: 5px;
-}
-
-.products .productAddToCart button:active {
-    background-color: rgb(250, 234, 230);
-    border: 1px solid rgb(0, 255, 76);
 }
 
 footer {
